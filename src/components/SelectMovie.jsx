@@ -10,7 +10,7 @@ const SelectMovie = () => {
     setCountries(typeof value === 'string' ? value.split(',') : value)
   }
   return (
-    <Box width='250px'  my={4}>
+    <Box width='250px'  my={4} component="div" sx={{ display: 'inline' }}>
       <TextField
         label='Select Movie'
         select
@@ -31,3 +31,4 @@ const SelectMovie = () => {
 }
 
 export default SelectMovie
+
