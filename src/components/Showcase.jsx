@@ -7,15 +7,11 @@ const Showcase = () => {
     return (
     <Container>
             <Seat>
-                <PentagonIcon color='success' />
-                N/A
+                <PentagonIcon style={{ color:'green' }} />
+                Free
             </Seat>
             <Seat>
-                <PentagonIcon color='info' />
-                Selected
-            </Seat>
-            <Seat>
-                <PentagonIcon color='error' />
+                <PentagonIcon style={{ color:'red' }} />
                 Occupied
             </Seat>
     </Container>
